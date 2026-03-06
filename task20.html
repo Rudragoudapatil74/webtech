@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color:lightcyan;
+        }
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            font-size: large;
+        }
+        nav{
+            height: 75px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #logoblock,#menublock{
+            height: 75px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #logoblock > a {
+            text-decoration: none;
+            color: white;
+        }
+        nav1{
+            height: 75px;
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav2{
+            height: 75px;
+            background-color:rgb(220, 212, 212);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <nav>
+        <div id="logoblock" style="width: 400px;">
+            <a href="">Brand</a>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+        </div>
+        <div id="menublock" style="width:500px;">
+            <input type="text" placeholder="search">
+        <button>search</button>
+    </div>
+    </nav>
+    <br>
+    <nav1>
+        <div id="logoblock" style="width: 400px;">
+            <a href="">Brand</a>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+        </div>
+        <div id="menublock" style="width:500px;">
+            <input type="text" placeholder="search">
+        <button>search</button>
+    </div>
+</nav1>
+<br>
+<nav2>
+    <div id="logoblock" style="width: 400px;">
+            <a href="">Brand</a>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+        </div>
+        <div id="menublock" style="width:500px;">
+            <input type="text" placeholder="search">
+        <button>search</button>
+    </div>
+</nav2>    
+</fieldset>
+</body>
+</html>
